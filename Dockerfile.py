@@ -9,7 +9,7 @@ FROM alpine:latest
 RUN apk --no-cache add ffmpeg
 
 WORKDIR /app
-COPY your_python_script.py 
+LAB4_GUI.py 
 
 CMD ["python", "LAB4_GUI.py"]
 
